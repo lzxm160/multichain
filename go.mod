@@ -3,6 +3,9 @@ module github.com/renproject/multichain
 go 1.14
 
 require (
+	github.com/iotexproject/go-pkgs v0.1.2-0.20200523040337-5f1d9ddaa8ee
+	github.com/iotexproject/iotex-address v0.2.2
+	github.com/iotexproject/iotex-proto v0.4.3
 	github.com/btcsuite/btcd v0.20.1-beta
 	github.com/btcsuite/btcutil v1.0.2
 	github.com/codahale/blake2 v0.0.0-20150924215134-8d10d0420cbf
