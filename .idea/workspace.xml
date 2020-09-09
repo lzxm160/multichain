@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22811f36-df94-45c7-ba92-2489adb11b8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/api/account/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/account/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/bitcoin/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/bitcoin/address.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/bitcoin/utxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/bitcoin/utxo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/bitcoincash/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/bitcoincash/address.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/bitcoincash/gas.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/bitcoincash/gas.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/bitcoincash/utxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/bitcoincash/utxo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/celo/address.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/celo/address_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/digibyte/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/digibyte/address.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/digibyte/digibyte.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/digibyte/digibyte.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/digibyte/gas.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/digibyte/gas.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/digibyte/utxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/digibyte/utxo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/account.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/account_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/address.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/address_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/encode.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/encode_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/ethereum.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/ethereum_suite_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/ethereum_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/gas.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/ethereum/gas_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/zcash/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/zcash/address.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/zcash/gas.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/zcash/gas.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/zcash/utxo.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/zcash/utxo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chain/zcash/zcash.go" beforeDir="false" afterPath="$PROJECT_DIR$/chain/zcash/zcash.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infra/.env" beforeDir="false" afterPath="$PROJECT_DIR$/infra/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multichain.go" beforeDir="false" afterPath="$PROJECT_DIR$/multichain.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="D:\work\go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1hHOIDCUsU1ioXl37GgwYBse60V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

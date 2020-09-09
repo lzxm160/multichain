@@ -23,6 +23,9 @@ require (
 	github.com/renproject/surge v1.2.6
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+	github.com/iotexproject/go-pkgs v0.1.2-0.20200523040337-5f1d9ddaa8ee
+	github.com/iotexproject/iotex-address v0.2.2
+	github.com/iotexproject/iotex-proto v0.4.3
 )
 
 replace github.com/filecoin-project/filecoin-ffi => ./chain/filecoin/filecoin-ffi
