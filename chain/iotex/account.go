@@ -67,18 +67,18 @@ func (t *Tx) Payload() contract.CallData { return contract.CallData(t.payload) }
 
 func (t *Tx) PublicKey() pack.Bytes { return t.publicKey }
 
-func (t *Tx) Sighash() (pack.Bytes32, error) {
+func (t *Tx) Sighashes() ([]pack.Bytes32, error) {
 	act := t.ToIoTeXTransfer()
 	core, err := proto.Marshal(act.GetCore())
 	if err != nil {
-		return pack.Bytes32{}, err
+		return nil, err
 	}
 	h := hash.Hash256b(core)
-	return pack.Bytes32(h), nil
+	return []pack.Bytes32{pack.Bytes32(h)}, nil
 }
 
-func (t *Tx) Sign(sig pack.Bytes65, publicKey pack.Bytes) error {
-	copy(t.sig[:], sig[:])
+func (t *Tx) Sign(sig []pack.Bytes65, publicKey pack.Bytes) error {
+	copy(t.sig[:], sig[0][:])
 
 	pub, err := crypto.BytesToPublicKey(publicKey)
 	if err != nil {
